@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+
+.icons{
+  color: #000000;
+  font-size: 35px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
